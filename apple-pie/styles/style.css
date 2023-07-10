@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -22,3 +22,57 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+#main-photo{
+
+  background-image: url(../images/apple-pie.jpg);
+  padding: 0px 0px 500px 0px;
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  margin: 30px 50px 20px 50px;
+}
+
+#title{
+  font-size: 80px;
+  color: white;
+  padding-top: 350px;
+}
+
+#firstp{
+  padding: 100px 250px 50px 250px;
+  width: 100%;
+  padding: 30px 350px 30px 350px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#receipe-info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+#cooking-info{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.div01{
+  margin-left: 100px;
+}
+
+.hr1{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.div02{
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
